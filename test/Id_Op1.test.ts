@@ -3,7 +3,7 @@ import {getRandomLVA} from "../src/Id_Op1";
 import {getRandomLTU} from "../src/Id_Op1";
 
 test ('Test_EST', () => {
-    const id1: number = getRandomEST(1000, 10000)
+    const id1: number = getRandomEST()
     const country1: string = 'EST-'
     const result1= country1+id1;
 
@@ -15,7 +15,7 @@ test ('Test_EST', () => {
 })
 
 test ('Test_LVA', () => {
-    const id2: number = getRandomLVA(1000, 10000)
+    const id2: number = getRandomLVA()
     const country2: string = 'LVA-'
     const result2= country2+id2;
 
@@ -27,7 +27,7 @@ test ('Test_LVA', () => {
 })
 
 test ('Test_LTU', () => {
-    const id3: number = getRandomLTU(1000, 10000)
+    const id3: number = getRandomLTU()
     const country3: string = 'LTU-'
     const result3= country3+id3;
 
